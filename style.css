@@ -1,3 +1,4 @@
+/* quadratini rossi */
 .ex-1-square {
   width: 100px;
   height: 100px;
@@ -49,15 +50,38 @@
   width: 40px;
   height: 40px;
 }
+/*  immagini con i filter */
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
   width: 500px;
+  transition: all 0.7s; /*aggiunta personale */
 }
-
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+.ex-7-img:hover {
+  filter: sepia(0.5);
+  box-shadow: 0 0 15px orange;
+  scale: 1.2;
+}
+.ex-8-img:hover {
+  border-radius: 10%;
+  box-shadow: 2px 2px 15px 5px violet;
+  filter: brightness(1.2);
+}
 .ex-9-img {
   margin: 50px 100px;
   width: 400px;
+}
+.ex-9-img {
+  transition: all 0.8s;
+}
+.ex-9-img:hover {
+  box-shadow: 2px 2px 15px 5px violet;
+  filter: blur(10px);
+  border-radius: 10%;
+  scale: 1.2;
 }
 .ex-10-icon {
   font-size: 60px;
